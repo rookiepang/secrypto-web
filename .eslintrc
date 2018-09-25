@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "standard",
+    "plugin:vue/essential"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "$": true,
+    "Vue": true,
+    "VueRouter": true,
+    "iview": true,
+    "moment": true,
+    "gtag": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  }
+}

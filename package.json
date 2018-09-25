@@ -1,0 +1,84 @@
+{
+  "name": "secrypto-web",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "egg": "^2.2.1",
+    "egg-mongoose": "^3.1.0",
+    "egg-redis": "^2.0.0",
+    "egg-scripts": "^2.5.0",
+    "egg-validate": "^1.0.0",
+    "koa-compress": "^3.0.0",
+    "lodash": "^4.17.10",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.22.2",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-clipboard2": "^0.2.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.3",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/eslint-config-airbnb": "^3.0.3",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && rm -r app/public && cp -r dist app/public && mv app/public/index.html app/index.html",
+    "vue-lint": "vue-cli-service lint",
+    "start": "egg-scripts start --title=egg-server-egg-vue --port=$PORT --ignore-stderr",
+    "stop": "egg-scripts stop --title=egg-server-egg-vue",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

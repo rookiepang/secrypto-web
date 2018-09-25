@@ -1,0 +1,297 @@
+{
+  "keys": "/Users/q/dev/eth/secrypto-web/config/config.default.js",
+  "middleware": "/Users/q/dev/eth/secrypto-web/config/config.default.js",
+  "security": {
+    "csrf": "/Users/q/dev/eth/secrypto-web/config/config.default.js",
+    "domainWhiteList": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/q/dev/eth/secrypto-web/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/q/dev/eth/secrypto-web/config/config.default.js",
+    "gzip": "/Users/q/dev/eth/secrypto-web/config/config.default.js",
+    "dir": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/q/dev/eth/secrypto-web/node_modules/egg-static/config/config.prod.js"
+  },
+  "compress": {
+    "threshold": "/Users/q/dev/eth/secrypto-web/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/q/dev/eth/secrypto-web/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/q/dev/eth/secrypto-web/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/q/dev/eth/secrypto-web/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/q/dev/eth/secrypto-web/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/q/dev/eth/secrypto-web/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/q/dev/eth/secrypto-web/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/q/dev/eth/secrypto-web/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/q/dev/eth/secrypto-web/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/q/dev/eth/secrypto-web/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/q/dev/eth/secrypto-web/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/q/dev/eth/secrypto-web/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/q/dev/eth/secrypto-web/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/q/dev/eth/secrypto-web/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/q/dev/eth/secrypto-web/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/q/dev/eth/secrypto-web/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/q/dev/eth/secrypto-web/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/q/dev/eth/secrypto-web/node_modules/egg-watcher/config/config.default.js",
+    "eventSources": {
+      "default": "/Users/q/dev/eth/secrypto-web/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/q/dev/eth/secrypto-web/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/q/dev/eth/secrypto-web/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/q/dev/eth/secrypto-web/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/q/dev/eth/secrypto-web/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/q/dev/eth/secrypto-web/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/q/dev/eth/secrypto-web/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/q/dev/eth/secrypto-web/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/q/dev/eth/secrypto-web/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/q/dev/eth/secrypto-web/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/q/dev/eth/secrypto-web/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "name": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "version": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "description": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "private": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "axios": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "dotenv": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "koa-compress": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "moment": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "register-service-worker": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vue": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vue-clipboard2": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "@vue/cli-plugin-eslint": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "@vue/cli-plugin-pwa": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "@vue/cli-service": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "@vue/eslint-config-airbnb": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "autod": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "esdoc-standard-plugin": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint-config-standard": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint-plugin-node": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint-plugin-promise": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "eslint-plugin-standard": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "serve": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "build": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "vue-lint": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "start": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "stop": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "dev": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "debug": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "test": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "cov": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "lint": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "ci": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "autod": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "url": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "license": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "postcss": {
+      "plugins": {
+        "autoprefixer": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+      }
+    },
+    "browserslist": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "strict": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "depth": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "env": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "level": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "logging": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "port": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/q/dev/eth/secrypto-web/node_modules/egg/config/config.default.js"
+}
