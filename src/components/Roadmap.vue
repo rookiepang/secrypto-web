@@ -40,6 +40,10 @@
       </div>
     </div>
 
+    <div class="content-pc">
+      <img src="~@/assets/roadmap@3x.png">
+    </div>
+
   </div>
 </template>
 
@@ -50,15 +54,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$breakpoint-tablet: 1080px;
 #roadmap {
   padding: 20px;
+  @media (min-width: $breakpoint-tablet) {
+    padding: 60px 120px;
+  }
   .title {
     font-size: 24px;
     color: rgb(31, 34, 51);
     margin-bottom: 44px;
+    @media (min-width: $breakpoint-tablet) {
+      display: none;
+    }
   }
   .content {
     display: flex;
+    @media (min-width: $breakpoint-tablet) {
+      display: none;
+    }
     .left {
       img {
         height: 635px;
@@ -86,6 +100,16 @@ export default {
           color: rgb(31, 34, 51);
         }
       }
+    }
+  }
+  .content-pc {
+    display: none;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    @media (min-width: $breakpoint-tablet) {
+      display: block;
     }
   }
 }

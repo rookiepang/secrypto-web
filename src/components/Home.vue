@@ -26,7 +26,7 @@
         </template>
       </card>
 
-      <card>
+      <card :reverse="true">
         <img slot="poster" src="~@/assets/picEoScript@3x.png">
         <img slot="icon" src="~@/assets/icEoScript@3x.png">
         <template slot="title">EOScript</template>
@@ -83,11 +83,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$breakpoint-tablet: 1080px;
 #home {
   .content {
     .what-is {
       text-align: left;
       padding: 40px 20px;
+      @media (min-width: $breakpoint-tablet) {
+        text-align: center;
+        padding: 40px 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
       .title {
         font-size: 20px;
         color: rgb(31, 34, 51);
