@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.837d38f31d4629200376e4a9a66970bf.js"
+  "/precache-manifest.06af2d5c8a85d09631b2397f4f57c82a.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "secrypto-wechat"});
+workbox.core.setCacheNameDetails({prefix: "secrypto-web"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to

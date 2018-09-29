@@ -7,7 +7,14 @@
       <div class="menu-button" @click="showMenu=true">
         <img src="~@/assets/icMenu@3x.png">
       </div>
+      <div class="nav-items">
+        <a class="item" href="#Products" @click="showMenu=false">Products</a>
+        <a class="item" href="#Roadmap" @click="showMenu=false">Roadmap</a>
+        <a class="item" href="#Partnership" @click="showMenu=false">Partnership</a>
+        <a class="item" href="#Team" @click="showMenu=false">Team</a>
+      </div>
     </div>
+
     <div class="content">
       <div class="title">Secrypto Labs</div>
       <div class="subtitle">The Dawn of a Blockchain New Age</div>
@@ -46,6 +53,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$breakpoint-tablet: 1080px;
 #app-header {
   position: relative;
   background-image: url("~@/assets/picSecryptoLabs@3x.jpg");
@@ -55,16 +63,40 @@ export default {
   height: 260px;
   display: flex;
   flex-direction: column;
+  @media (min-width: $breakpoint-tablet) {
+    height: 700px;
+  }
   .navs {
     display: flex;
     justify-content: space-between;
     height: 20px;
     padding: 12px 20px;
+    @media (min-width: $breakpoint-tablet) {
+      height: 34px;
+      padding: 23px 69px;
+    }
     .logo,
     .menu-button {
       height: 100%;
       img {
         height: 100%;
+      }
+    }
+    .menu-button {
+      @media (min-width: $breakpoint-tablet) {
+        display: none;
+      }
+    }
+    .nav-items {
+      display: none;
+      @media (min-width: $breakpoint-tablet) {
+        display: flex;
+      }
+      a {
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+        margin-right: 85px;
       }
     }
   }
@@ -76,12 +108,21 @@ export default {
     align-items: flex-start;
     padding: 20px;
     color: white;
+    @media (min-width: $breakpoint-tablet) {
+      padding: 120px;
+    }
     .title {
       font-size: 36px;
       font-weight: bold;
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 72px;
+      }
     }
     .subtitle {
       font-size: 14px;
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 24px;
+      }
     }
   }
   .menu {

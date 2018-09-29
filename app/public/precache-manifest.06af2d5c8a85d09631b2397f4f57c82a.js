@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "775b67b581768eb84a7d8439d14238ea",
-    "url": "/img/inBlockchain@3x.775b67b5.png"
+    "revision": "6d73619b921d9d89d95feef414cebd48",
+    "url": "/img/bitax@3x.6d73619b.png"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {
-    "revision": "c8845d7cc6fe1ada84cbde7e5aa15404",
-    "url": "/img/picSecryptoWallet@3x.c8845d7c.png"
+    "revision": "775b67b581768eb84a7d8439d14238ea",
+    "url": "/img/inBlockchain@3x.775b67b5.png"
   },
   {
     "revision": "9f88f79d153e921bcfb7",
     "url": "/js/chunk-vendors.613e7681.js"
   },
   {
-    "revision": "2d2e16b898f85d9d51eb984908bfd3f7",
-    "url": "/img/arpa@3x.2d2e16b8.png"
+    "revision": "c8845d7cc6fe1ada84cbde7e5aa15404",
+    "url": "/img/picSecryptoWallet@3x.c8845d7c.png"
   },
   {
     "revision": "1fceab68132cf2677ca051b3a88da5d6",
     "url": "/img/characters02@3x.1fceab68.png"
   },
   {
-    "revision": "49f2877b6abd9f12dd961c792835f9df",
+    "revision": "4287caa4b71622544e25b47e2b7aee01",
     "url": "/index.html"
+  },
+  {
+    "revision": "5d2dc91567a134a3c05c570308df9eb2",
+    "url": "/img/secryptoLabs@3x.5d2dc915.png"
   },
   {
     "revision": "8cba1e68ce59bd02d589c30781e68d29",
@@ -56,16 +60,16 @@ self.__precacheManifest = [
     "url": "/img/coindaily@3x.837d25e0.png"
   },
   {
-    "revision": "5d2dc91567a134a3c05c570308df9eb2",
-    "url": "/img/secryptoLabs@3x.5d2dc915.png"
-  },
-  {
-    "revision": "46f338ec6450b9fe3651",
-    "url": "/js/app.77d01959.js"
+    "revision": "c9e845214597ef2473d4",
+    "url": "/js/app.87f44764.js"
   },
   {
     "revision": "bc337ab52a074836cd1362fbe3ee30fe",
     "url": "/img/picSecryptoLabs@3x.bc337ab5.jpg"
+  },
+  {
+    "revision": "bc40dd177b1ae696880284cdfc0dde2d",
+    "url": "/img/roadmap@3x.bc40dd17.png"
   },
   {
     "revision": "6fb95613f376e7d813e9661e9970e048",
@@ -104,8 +108,8 @@ self.__precacheManifest = [
     "url": "/img/bitmap@3x.d9897b3e.png"
   },
   {
-    "revision": "6d73619b921d9d89d95feef414cebd48",
-    "url": "/img/bitax@3x.6d73619b.png"
+    "revision": "2d2e16b898f85d9d51eb984908bfd3f7",
+    "url": "/img/arpa@3x.2d2e16b8.png"
   },
   {
     "revision": "430307b79fb366f9ece95ece17937b89",
@@ -116,7 +120,7 @@ self.__precacheManifest = [
     "url": "/img/android@3x.0ae6d6fc.png"
   },
   {
-    "revision": "46f338ec6450b9fe3651",
-    "url": "/css/app.4ae9bbc8.css"
+    "revision": "c9e845214597ef2473d4",
+    "url": "/css/app.2da0626e.css"
   }
 ];
