@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/img/characters02@3x.1fceab68.png"
   },
   {
-    "revision": "8ba0927daf7b7b6ea39eb8b3da109bbf",
+    "revision": "ea057387fc8824a22c502a49e1ea5cef",
     "url": "/index.html"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/img/coindaily@3x.837d25e0.png"
   },
   {
-    "revision": "eba8757b91e77c5bea64",
-    "url": "/js/app.0e8bdfb0.js"
+    "revision": "1dfcc64cd8258c73e23e",
+    "url": "/js/app.3722c6b6.js"
   },
   {
     "revision": "bc337ab52a074836cd1362fbe3ee30fe",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/img/android@3x.0ae6d6fc.png"
   },
   {
-    "revision": "eba8757b91e77c5bea64",
+    "revision": "1dfcc64cd8258c73e23e",
     "url": "/css/app.2da0626e.css"
   }
 ];
