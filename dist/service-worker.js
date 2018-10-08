@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.840a7945b6b67811a18f1747697b69ef.js"
+  "/precache-manifest.1caa5b7ac723d700acbeb5ada10ebb06.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "secrypto-web"});
