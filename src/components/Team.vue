@@ -70,7 +70,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$breakpoint-tablet: 1080px;
 #team {
   padding: 40px 20px;
   .title {
@@ -78,8 +77,17 @@ $breakpoint-tablet: 1080px;
     color: rgb(31, 34, 51);
     margin-bottom: 50px;
   }
-  .members {
-    @media (min-width: $breakpoint-tablet) {
+}
+</style>
+
+<style lang="scss" scoped>
+@import '~@/assets/css/variables.scss';
+@media (min-width: $breakpoint-tablet) {
+  #team {
+    .title {
+      font-size: 32px;
+    }
+    .members {
       display: flex;
       .member {
         flex: 50%;
@@ -89,4 +97,3 @@ $breakpoint-tablet: 1080px;
   }
 }
 </style>
-

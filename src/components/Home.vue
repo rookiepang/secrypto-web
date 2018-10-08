@@ -4,7 +4,7 @@
     <div class="content">
       <div class="what-is">
         <div class="title">What is Secrypto Lab</div>
-        <div class="text">The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token. The Raiden project is work in progress. Its goal is to research state channel technology, define protocols and develop reference implementations.</div>
+        <div class="text">Secrypto Labs is a worldwide group focusing on blockchain technology and making great products. We have already released a multi-chain wallet Secrypto and will deliver EOScript as a compiler for EOS mainnet.</div>
       </div>
 
       <span id="Products"></span>
@@ -16,10 +16,10 @@
         <template slot="content">Secrypto provides an intuitive yet secured wallet for every user from beginner to expert. It is the first crypto wallet in the market that integrates multiple wallets and utilizes the highest level of security with breakthrough “read-only" mode so you have a peace of mind managing all your cryptocurrencies.</template>
         <template slot="footer">
           <div class="downloads">
-            <a href="#">
+            <a href="https://itunes.apple.com/us/app/secrypto-wallet/id1383238393?mt=8" target="__blank">
               <img src="~@/assets/appStore@3x.png">
             </a>
-            <a href="#">
+            <a href="https://play.google.com/store/apps/details?id=com.secrypto" target="__blank">
               <img src="~@/assets/android@3x.png">
             </a>
           </div>
@@ -33,7 +33,7 @@
         <template slot="subtitle">The EOS dApp framework integrated with efficiency and security</template>
         <template slot="content">EOScript is an open-source framework for decentralized applications (dApp) on EOS. It uses JavaScript syntax with blockchain operation extensions. DApps written in EOScript can be compiled to C++ and deployed to the EOS Mainnet. Through a unified coding, debugging, security auditing and deployment workflows, EOScript can greatly improve the coding efficiency of EOS developers.</template>
         <template slot="footer">
-          <a href="#" class="brochure">
+          <a :href="`${baseUrl}files/Key+Concepts+of+EOScript.pdf`" target="__blank" class="brochure">
             Technical Brochure
           </a>
         </template>
@@ -79,31 +79,30 @@ export default {
     Partnership,
     Team,
   },
+  data() {
+    return {
+      baseUrl: process.env.BASE_URL,
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-$breakpoint-tablet: 1080px;
 #home {
   .content {
     .what-is {
       text-align: left;
       padding: 40px 20px;
-      @media (min-width: $breakpoint-tablet) {
-        text-align: center;
-        padding: 40px 300px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-      }
+      background-color: #fafafa;
       .title {
         font-size: 20px;
         color: rgb(31, 34, 51);
         font-weight: bolder;
-        line-height: 40px;
+        line-height: 200%;
       }
       .text {
         font-size: 16px;
+        line-height: 150%;
         color: rgba(31, 34, 51, 0.76);
       }
     }
@@ -127,6 +126,35 @@ $breakpoint-tablet: 1080px;
       text-decoration: none;
       font-size: 14px;
       font-weight: bold;
+    }
+  }
+}
+</style>
+
+<style lang="scss" scoped>
+@import '~@/assets/css/variables.scss';
+@media (min-width: $breakpoint-tablet) {
+  #home {
+    .content {
+      .what-is {
+        text-align: center;
+        padding: 40px 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .title {
+          font-size: 32px;
+        }
+        .text {
+          font-size: 18px;
+        }
+      }
+      .downloads {
+        img {
+          width: 128px;
+          margin-right: 12px;
+        }
+      }
     }
   }
 }

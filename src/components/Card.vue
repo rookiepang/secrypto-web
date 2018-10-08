@@ -43,14 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$breakpoint-tablet: 1080px;
 #card {
-  @media (min-width: $breakpoint-tablet) {
-    display: flex;
-    > div {
-      flex: 1;
-    }
-  }
   .poster {
     width: 100%;
     img {
@@ -60,16 +53,6 @@ $breakpoint-tablet: 1080px;
   }
   .info {
     padding: 30px 20px;
-    @media (min-width: $breakpoint-tablet) {
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      > div {
-        width: 80% !important;
-      }
-    }
     .header {
       width: 100%;
       display: flex;
@@ -90,13 +73,13 @@ $breakpoint-tablet: 1080px;
         justify-content: center;
         .title {
           font-size: 20px;
-          line-height: 30px;
+          line-height: 150%;
           color: rgb(31, 34, 51);
           font-weight: bold;
         }
         .subtitle {
           font-size: 16px;
-          line-height: 20px;
+          line-height: 130%;
           color: rgb(31, 34, 51);
         }
       }
@@ -107,13 +90,49 @@ $breakpoint-tablet: 1080px;
       line-height: 20px;
       color: rgba(31, 34, 51, 0.76);
       text-align: left;
-      @media (min-width: $breakpoint-tablet) {
-        padding: 10px 0;
-      }
     }
     .footer {
       margin-bottom: 40px;
-      @media (min-width: $breakpoint-tablet) {
+    }
+  }
+}
+</style>
+
+<style lang="scss" scoped>
+@import '~@/assets/css/variables.scss';
+@media (min-width: $breakpoint-tablet) {
+  #card {
+    display: flex;
+    > div {
+      flex: 1;
+    }
+    .info {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      > div {
+        width: 80% !important;
+      }
+      .header {
+        .left {
+          width: 100px;
+          height: 100px;
+        }
+        .right {
+          .title {
+            font-size: 32px;
+          }
+          .subtitle {
+            font-size: 18px;
+          }
+        }
+      }
+      .content {
+        padding: 15px 0;
+      }
+      .footer {
         margin-bottom: 0;
       }
     }
