@@ -30,6 +30,19 @@
       </member>
     </div>
 
+    <member class="member">
+      <template slot="avatar">
+        <img src="~@/assets/characters02@3x.png">
+      </template>
+      <template slot="name">Rose Ren</template>
+      <template slot="position">CFO, Co-founder</template>
+      <template slot="introduction">
+        Rose has extensive experience in Investment and Public Relations.
+        She was former Marketing Lead of Bodhi, former investment manager of Continue Capital and Danhua Capital.
+        Rose received Bachelor’s degree of Economics and Math from University of Michigan, Ann Arbor.
+      </template>
+    </member>
+
     <div class="members">
       <member class="member">
         <template slot="avatar">
@@ -39,19 +52,6 @@
         <template slot="position">Co-founder</template>
         <template slot="introduction">
           Xiaoyi got a master degree in Statistics from Columbia University. He has worked on Wall Street for several years, focusing on algorithm design and data analysis in quantitative trading area. In 2013 he started doing research on cryptocurrency, and has gained deep understanding on blockchain technology and the insight of its applications.
-        </template>
-      </member>
-
-      <member class="member">
-        <template slot="avatar">
-          <img src="~@/assets/characters02@3x.png">
-        </template>
-        <template slot="name">Rose Ren</template>
-        <template slot="position">CFO, Co-founder</template>
-        <template slot="introduction">
-          Rose has extensive experience in Investment and Public Relations.
-          She was former Marketing Lead of Bodhi, former investment manager of Continue Capital and Danhua Capital.
-          Rose received Bachelor’s degree of Economics and Math from University of Michigan, Ann Arbor.
         </template>
       </member>
     </div>

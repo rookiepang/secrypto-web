@@ -3,7 +3,7 @@
     <app-header/>
     <div class="content">
       <div class="what-is">
-        <div class="title">What is Secrypto Lab</div>
+        <div class="title">What is Secrypto Labs</div>
         <div class="text">Secrypto Labs is a worldwide group focusing on blockchain technology and making great products. We have already released a multi-chain wallet Secrypto and will deliver EOScript as a compiler for EOS mainnet.</div>
       </div>
 
@@ -30,8 +30,8 @@
         <img slot="poster" src="~@/assets/picEoScript@3x.png">
         <img slot="icon" src="~@/assets/icEoScript@3x.png">
         <template slot="title">EOScript</template>
-        <template slot="subtitle">The EOS dApp framework integrated with efficiency and security</template>
-        <template slot="content">EOScript is an open-source framework for decentralized applications (dApp) on EOS. It uses JavaScript syntax with blockchain operation extensions. DApps written in EOScript can be compiled to C++ and deployed to the EOS Mainnet. Through a unified coding, debugging, security auditing and deployment workflows, EOScript can greatly improve the coding efficiency of EOS developers.</template>
+        <template slot="subtitle">The EOS DApps framework integrated with efficiency and security</template>
+        <template slot="content">EOScript is an open-source framework for decentralized applications (DApps) on EOS. It uses JavaScript syntax with blockchain operation extensions. DApps written in EOScript can be compiled to C++ and deployed to the EOS Mainnet. Through a unified coding, debugging, security auditing and deployment workflows, EOScript can greatly improve the coding efficiency of EOS developers.</template>
         <template slot="footer">
           <a :href="`${baseUrl}files/Key+Concepts+of+EOScript.pdf`" target="__blank" class="brochure">
             Technical Brochure
@@ -42,8 +42,8 @@
       <card>
         <img slot="poster" src="~@/assets/picDAppStore@3x.png">
         <img slot="icon" src="~@/assets/bitmap@3x.png">
-        <template slot="title">DApp Store</template>
-        <template slot="subtitle">The EOS dApp framework integrated with efficiency and security</template>
+        <template slot="title">DApps Store</template>
+        <template slot="subtitle">The EOS DApps framework integrated with efficiency and security</template>
         <template slot="content">The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token. The Raiden project is work in progress. Its goal is to research state channel technology, define protocols and develop reference implementations.</template>
       </card>
 

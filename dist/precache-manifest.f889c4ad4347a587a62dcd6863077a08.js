@@ -4,20 +4,16 @@ self.__precacheManifest = [
     "url": "/img/bitax@3x.6d73619b.png"
   },
   {
+    "revision": "3cb0bc990dd709b7606c0903e3be47df",
+    "url": "/files/Key+Concepts+of+EOScript.pdf"
+  },
+  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {
-    "revision": "775b67b581768eb84a7d8439d14238ea",
-    "url": "/img/inBlockchain@3x.775b67b5.png"
-  },
-  {
     "revision": "d88e0047a6d1dda01792",
-    "url": "/css/chunk-vendors.fc524661.css"
-  },
-  {
-    "revision": "bc337ab52a074836cd1362fbe3ee30fe",
-    "url": "/img/picSecryptoLabs@3x.bc337ab5.jpg"
+    "url": "/js/chunk-vendors.a626a7d5.js"
   },
   {
     "revision": "a2c4a261a239aa84463dc70e4bac9b9a",
@@ -30,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "99ac3308dd8ee14f749f51538d0d5b9e",
     "url": "/fonts/ionicons.99ac3308.woff"
+  },
+  {
+    "revision": "bc337ab52a074836cd1362fbe3ee30fe",
+    "url": "/img/picSecryptoLabs@3x.bc337ab5.jpg"
   },
   {
     "revision": "1fceab68132cf2677ca051b3a88da5d6",
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/img/coindaily@3x.837d25e0.png"
   },
   {
-    "revision": "9acb47e6f6e451e0612e",
-    "url": "/js/app.4749d624.js"
+    "revision": "1018307355f02db684aa",
+    "url": "/js/app.cd821e9b.js"
   },
   {
-    "revision": "d88e0047a6d1dda01792",
-    "url": "/js/chunk-vendors.a626a7d5.js"
+    "revision": "775b67b581768eb84a7d8439d14238ea",
+    "url": "/img/inBlockchain@3x.775b67b5.png"
   },
   {
     "revision": "c8845d7cc6fe1ada84cbde7e5aa15404",
@@ -136,19 +136,19 @@ self.__precacheManifest = [
     "url": "/img/characters01@3x.74680863.png"
   },
   {
-    "revision": "7fd1daae878402b45f1b8bbbe36b6397",
+    "revision": "ebab808b350c33e4f3d1d4719f61412a",
     "url": "/index.html"
   },
   {
-    "revision": "0acb5799f873e444ec0df504ea364636",
+    "revision": "f44df66871915cc8043cc139691ec933",
     "url": "/favicon32.ico"
   },
   {
-    "revision": "3cb0bc990dd709b7606c0903e3be47df",
-    "url": "/files/Key+Concepts+of+EOScript.pdf"
+    "revision": "d88e0047a6d1dda01792",
+    "url": "/css/chunk-vendors.fc524661.css"
   },
   {
-    "revision": "9acb47e6f6e451e0612e",
-    "url": "/css/app.03d55a94.css"
+    "revision": "1018307355f02db684aa",
+    "url": "/css/app.59dfbc0e.css"
   }
 ];
