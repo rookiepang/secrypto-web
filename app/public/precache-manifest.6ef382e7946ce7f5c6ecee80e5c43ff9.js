@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "/img/characters02@3x.1fceab68.png"
   },
   {
-    "revision": "bc40dd177b1ae696880284cdfc0dde2d",
-    "url": "/img/roadmap@3x.bc40dd17.png"
-  },
-  {
     "revision": "0ae6d6fc9ab15a0ea7a0be36c59cba48",
     "url": "/img/android@3x.0ae6d6fc.png"
   },
@@ -48,8 +44,8 @@ self.__precacheManifest = [
     "url": "/img/appStore@3x.430307b7.png"
   },
   {
-    "revision": "8cba1e68ce59bd02d589c30781e68d29",
-    "url": "/img/picEoScript@3x.8cba1e68.png"
+    "revision": "109e2d06cb6cbd452f5ac8811e4e1970",
+    "url": "/img/picEoScript@3x.109e2d06.png"
   },
   {
     "revision": "dcc94d82cfbc3eaaac9b9c2d60b9b456",
@@ -58,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "532b92bfa8b4c13084dff311dbf81932",
     "url": "/img/secryptoLabsFooter@3x.532b92bf.png"
+  },
+  {
+    "revision": "d78db999ab98feb85d5624c1ea915c7d",
+    "url": "/img/timeline-web@3x.d78db999.png"
   },
   {
     "revision": "ef764a761cb73c3102aabd233f3f49c6",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/img/coindaily@3x.837d25e0.png"
   },
   {
-    "revision": "1018307355f02db684aa",
-    "url": "/js/app.cd821e9b.js"
+    "revision": "f0553401f568f29906c1",
+    "url": "/js/app.e3a340fa.js"
   },
   {
     "revision": "775b67b581768eb84a7d8439d14238ea",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/img/characters01@3x.74680863.png"
   },
   {
-    "revision": "ebab808b350c33e4f3d1d4719f61412a",
+    "revision": "adcf25669372387f2b30c6a31f9697b9",
     "url": "/index.html"
   },
   {
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.fc524661.css"
   },
   {
-    "revision": "1018307355f02db684aa",
-    "url": "/css/app.59dfbc0e.css"
+    "revision": "f0553401f568f29906c1",
+    "url": "/css/app.2136dc91.css"
   }
 ];

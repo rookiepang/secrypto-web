@@ -3,8 +3,8 @@
     <app-header/>
     <div class="content">
       <div class="what-is">
-        <div class="title">What is Secrypto Labs</div>
-        <div class="text">Secrypto Labs is a worldwide group focusing on blockchain technology and making great products. We have already released a multi-chain wallet Secrypto and will deliver EOScript as a compiler for EOS mainnet.</div>
+        <div class="title centered">What is Secrypto Labs</div>
+        <div class="text centered">Secrypto Labs is a worldwide group focusing on blockchain technology and making great products. We have already released a multi-chain wallet Secrypto and will deliver EOScript as a compiler for EOS mainnet.</div>
       </div>
 
       <span id="Products"></span>
@@ -43,8 +43,8 @@
         <img slot="poster" src="~@/assets/picDAppStore@3x.png">
         <img slot="icon" src="~@/assets/bitmap@3x.png">
         <template slot="title">DApps Store</template>
-        <template slot="subtitle">The EOS DApps framework integrated with efficiency and security</template>
-        <template slot="content">The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token. The Raiden project is work in progress. Its goal is to research state channel technology, define protocols and develop reference implementations.</template>
+        <template slot="subtitle">Discover what you need in decentralized world</template>
+        <template slot="content">DApp Store is an entrance for users to find useful tools in decentralized ecosystem. We will assemble DApps build on Ethereum, EOS and other platforms by calling smart contract directly.</template>
       </card>
 
       <span id="Roadmap"></span>
@@ -90,9 +90,13 @@ export default {
 <style lang="scss" scoped>
 #home {
   .content {
+    display: flex;
+    flex-direction: column;
     .what-is {
       text-align: left;
-      padding: 40px 20px;
+      // padding: 40px 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
       background-color: #fafafa;
       .title {
         font-size: 20px;
@@ -138,15 +142,19 @@ export default {
     .content {
       .what-is {
         text-align: center;
-        padding: 40px 300px;
+        // padding: 40px 300px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         .title {
           font-size: 32px;
+          padding-left: 20px;
+          padding-right: 20px;
         }
         .text {
           font-size: 18px;
+          padding-left: 20px;
+          padding-right: 20px;
         }
       }
       .downloads {

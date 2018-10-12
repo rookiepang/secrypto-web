@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper" id="app-header">
-    <div class="navs">
+    <div class="navs centered">
       <div class="logo">
         <img src="~@/assets/secryptoLabs@3x.png">
       </div>
@@ -15,14 +15,14 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="content centered">
       <div class="title">Secrypto Labs</div>
       <div class="subtitle">The Dawn of a Blockchain New Age</div>
     </div>
 
     <transition name="slide">
       <div class="menu" v-if="showMenu">
-        <div class="navs">
+        <div class="navs centered">
           <div class="logo">
             <img src="~@/assets/secryptoLabs@3x.png">
           </div>
@@ -66,7 +66,10 @@ export default {
     display: flex;
     justify-content: space-between;
     height: 20px;
-    padding: 12px 20px;
+    margin-top: 23px;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    align-self: center;
     .logo {
       height: 24px;
       img {
@@ -148,7 +151,6 @@ export default {
     height: 700px;
     .navs {
       height: 34px;
-      padding: 23px 69px;
       .logo,
       .menu-button {
         height: 34px;
@@ -161,7 +163,7 @@ export default {
       }
     }
     .content {
-      padding: 120px;
+      padding: 100px;
       .title {
         font-size: 72px;
       }

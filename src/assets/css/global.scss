@@ -1,0 +1,24 @@
+@import '~@/assets/css/variables.scss';
+
+.centered {
+  width: 100%;
+  align-self: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media (min-width: $breakpoint-tablet) {
+    max-width: 1200px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.centered-half {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media (min-width: $breakpoint-tablet) {
+    max-width: 620px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

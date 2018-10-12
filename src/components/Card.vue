@@ -1,12 +1,12 @@
 <template>
-  <div class="wrapper" id="card" :style="{ flexDirection: reverse ? 'row' : 'row-reverse' }">
+  <div class="wrapper" id="card" :style="style">
 
     <div class="poster">
       <slot name="poster"></slot>
     </div>
 
-    <div class="info">
-      <div class="header">
+    <div class="info" :style="infoStyle">
+      <div class="header centered-half">
         <div class="left">
           <slot name="icon"></slot>
         </div>
@@ -19,10 +19,10 @@
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="content centered-half">
         <slot name="content"></slot>
       </div>
-      <div class="footer">
+      <div class="footer centered-half">
         <slot name="footer"></slot>
       </div>
     </div>
@@ -37,6 +37,18 @@ export default {
       required: false,
       type: Boolean,
       default: false,
+    },
+  },
+  computed: {
+    style() {
+      return {
+        flexDirection: this.reverse ? 'row' : 'row-reverse',
+      };
+    },
+    infoStyle() {
+      return {
+        alignItems: this.reverse ? 'flex-start' : 'flex-end',
+      };
     },
   },
 };
@@ -85,11 +97,12 @@ export default {
       }
     }
     .content {
-      padding: 25px 0;
       font-size: 14px;
       line-height: 20px;
       color: rgba(31, 34, 51, 0.76);
       text-align: left;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
     .footer {
       margin-bottom: 40px;
@@ -111,10 +124,6 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      > div {
-        width: 80% !important;
-      }
       .header {
         .left {
           width: 100px;
@@ -130,7 +139,8 @@ export default {
         }
       }
       .content {
-        padding: 15px 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
       }
       .footer {
         margin-bottom: 0;

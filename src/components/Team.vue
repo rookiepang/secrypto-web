@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" id="team">
+  <div class="wrapper centered" id="team">
     <div class="title">Team</div>
 
     <div class="members">
@@ -23,27 +23,27 @@
           <img src="~@/assets/characters01@3x.png">
         </template>
         <template slot="name">Xin Sun </template>
-        <template slot="position">COO, Co-founder</template>
+        <template slot="position">Co-founder</template>
         <template slot="introduction">
           Xin is an expert in online marketing and user growth. He served as the chief online marketing director of YangCheng Ltd (A-share listed) where he contributed over $10M of revenue annually. Before that, he founded HeyCity Inn, a brand of high-end residence and young people community in China. Xin has got a master degree in E-Business in Newcastle University, and B.A in Finance from Macau University of Science and Technology.
         </template>
       </member>
     </div>
 
-    <member class="member">
-      <template slot="avatar">
-        <img src="~@/assets/characters02@3x.png">
-      </template>
-      <template slot="name">Rose Ren</template>
-      <template slot="position">CFO, Co-founder</template>
-      <template slot="introduction">
-        Rose has extensive experience in Investment and Public Relations.
-        She was former Marketing Lead of Bodhi, former investment manager of Continue Capital and Danhua Capital.
-        Rose received Bachelor’s degree of Economics and Math from University of Michigan, Ann Arbor.
-      </template>
-    </member>
-
     <div class="members">
+      <member class="member">
+        <template slot="avatar">
+          <img src="~@/assets/characters02@3x.png">
+        </template>
+        <template slot="name">Rose Ren</template>
+        <template slot="position">Co-founder</template>
+        <template slot="introduction">
+          Rose has extensive experience in Investment and Public Relations.
+          She was former Marketing Lead of Bodhi, former investment manager of Continue Capital and Danhua Capital.
+          Rose received Bachelor’s degree of Economics and Math from University of Michigan, Ann Arbor.
+        </template>
+      </member>
+
       <member class="member">
         <template slot="avatar">
           <img src="~@/assets/characters05@3x.png">
@@ -91,7 +91,7 @@ export default {
       display: flex;
       .member {
         flex: 50%;
-        padding: 0 120px;
+        padding: 0 20px;
       }
     }
   }

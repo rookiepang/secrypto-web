@@ -18,7 +18,7 @@
         <img src="~@/assets/coindaily@3x.png" height="17" class="middle">
       </div>
     </div>
-    <div class="partners-pc">
+    <div class="partners-pc centered">
       <div class="row">
         <img src="~@/assets/yc@3x.png" height="19" class="middle">
         <img src="~@/assets/nc@3x.png" height="18" class="middle">
@@ -44,6 +44,9 @@ export default {
 
 <style lang="scss" scoped>
 #partnership {
+  display: flex;
+  flex-direction: column;
+
   background-color: rgba(31, 34, 51, 0.04);
   padding: 40px;
   .title {
@@ -64,7 +67,6 @@ export default {
   .partners-pc {
     display: none;
     flex-direction: column;
-    padding: 0 20%;
     .row {
       display: flex;
       justify-content: space-between;
