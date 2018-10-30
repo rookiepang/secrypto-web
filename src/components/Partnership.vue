@@ -4,33 +4,41 @@
     <div class="partners">
       <div class="row">
         <img src="~@/assets/yc@3x.png" height="19" class="middle">
-        <img src="~@/assets/gbic@3x.png" height="17" class="middle">
-        <img src="~@/assets/inBlockchain@3x.png" height="28" class="tall">
+        <img src="~@/assets/dna@3x.png" height="17" class="middle">
+        <img src="~@/assets/ebs@3x.png" height="28" class="middle">
+      </div>
+      <div class="row">
+        <img src="~@/assets/arpa@3x.png" height="24" class="tall">
+        <img src="~@/assets/kyberNetwork@3x.png" height="26" class="tall">
+        <img src="~@/assets/lumeos@3x.png" height="26" class="middle">
       </div>
       <div class="row">
         <img src="~@/assets/qokkaAi@3x.png" height="12" class="short">
-        <img src="~@/assets/nc@3x.png" height="18" class="middle">
-        <img src="~@/assets/bitax@3x.png" height="13" class="short">
+        <img src="~@/assets/gbic@3x.png" height="18" class="middle">
+        <img src="~@/assets/oceanex@3x.png" height="18" class="middle">
       </div>
       <div class="row">
-        <img src="~@/assets/kyberNetwork@3x.png" height="26" class="tall">
-        <img src="~@/assets/arpa@3x.png" height="24" class="tall">
+        <img src="~@/assets/bitax@3x.png" height="26" class="tall">
         <img src="~@/assets/coindaily@3x.png" height="17" class="middle">
+        <img src="~@/assets/vechain@3x.png" height="24" class="middle">
       </div>
     </div>
     <div class="partners-pc centered">
       <div class="row">
-        <img src="~@/assets/yc@3x.png" height="19" class="middle">
-        <img src="~@/assets/nc@3x.png" height="18" class="middle">
-        <img src="~@/assets/inBlockchain@3x.png" height="28" class="tall">
-        <img src="~@/assets/arpa@3x.png" height="24" class="tall">
+        <img src="~@/assets/yc@3x.png" height="20" class="middle">
+        <img src="~@/assets/dna@3x.png" height="20" class="middle">
+        <img src="~@/assets/ebs@3x.png" height="20" class="middle">
+        <img src="~@/assets/arpa@3x.png" height="20" class="tall">
+        <img src="~@/assets/kyberNetwork@3x.png" height="20" class="tall">
+        <img src="~@/assets/lumeos@3x.png" height="20" class="middle">
       </div>
       <div class="row">
-        <img src="~@/assets/qokkaAi@3x.png" height="12" class="short">
-        <img src="~@/assets/gbic@3x.png" height="17" class="middle">
-        <img src="~@/assets/kyberNetwork@3x.png" height="26" class="tall">
-        <img src="~@/assets/bitax@3x.png" height="13" class="short">
-        <img src="~@/assets/coindaily@3x.png" height="17" class="middle">
+        <img src="~@/assets/qokkaAi@3x.png" height="20" class="short">
+        <img src="~@/assets/gbic@3x.png" height="20" class="middle">
+        <img src="~@/assets/oceanex@3x.png" height="20" class="middle">
+        <img src="~@/assets/bitax@3x.png" height="24" class="tall">
+        <img src="~@/assets/coindaily@3x.png" height="20" class="middle">
+        <img src="~@/assets/vechain@3x.png" height="20" class="middle">
       </div>
     </div>
   </div>

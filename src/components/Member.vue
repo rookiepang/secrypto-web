@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'member',
-};
+}
 </script>
 
 <style lang="scss" scoped>
