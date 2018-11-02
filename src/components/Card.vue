@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" id="card" :style="style">
 
-    <div class="poster">
+    <div class="poster" :class="posterClass">
       <slot name="poster"></slot>
     </div>
 
@@ -38,6 +38,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    posterClass: {
+      required: true,
+      type: String,
+    },
   },
   computed: {
     style() {
@@ -61,6 +65,7 @@ export default {
     img {
       width: 100%;
       display: flex;
+      padding: 0 !important;
     }
   }
   .info {
@@ -118,6 +123,10 @@ export default {
     display: flex;
     > div {
       flex: 1;
+    }
+    .poster {
+      display: flex;
+      height: 400px;
     }
     .info {
       padding: 0;

@@ -3,42 +3,40 @@
     <div class="title">Partnership</div>
     <div class="partners">
       <div class="row">
-        <img src="~@/assets/yc@3x.png" height="19" class="middle">
-        <img src="~@/assets/dna@3x.png" height="17" class="middle">
-        <img src="~@/assets/ebs@3x.png" height="28" class="middle">
+        <img src="~@/assets/partner1@2x.png">
+        <img src="~@/assets/partner2@2x.png">
+        <img src="~@/assets/partner3@2x.png">
+        <img src="~@/assets/partner4@2x.png">
       </div>
       <div class="row">
-        <img src="~@/assets/arpa@3x.png" height="24" class="tall">
-        <img src="~@/assets/kyberNetwork@3x.png" height="26" class="tall">
-        <img src="~@/assets/lumeos@3x.png" height="26" class="middle">
+        <img src="~@/assets/partner5@2x.png">
+        <img src="~@/assets/partner6@2x.png">
+        <img src="~@/assets/partner7@2x.png">
+        <img src="~@/assets/partner8@2x.png">
       </div>
       <div class="row">
-        <img src="~@/assets/qokkaAi@3x.png" height="12" class="short">
-        <img src="~@/assets/gbic@3x.png" height="18" class="middle">
-        <img src="~@/assets/oceanex@3x.png" height="18" class="middle">
-      </div>
-      <div class="row">
-        <img src="~@/assets/bitax@3x.png" height="26" class="tall">
-        <img src="~@/assets/coindaily@3x.png" height="17" class="middle">
-        <img src="~@/assets/vechain@3x.png" height="24" class="middle">
+        <img src="~@/assets/partner9@2x.png">
+        <img src="~@/assets/partner10@2x.png">
+        <img src="~@/assets/partner11@2x.png">
+        <img src="~@/assets/partner12@2x.png">
       </div>
     </div>
     <div class="partners-pc centered">
       <div class="row">
-        <img src="~@/assets/yc@3x.png" height="20" class="middle">
-        <img src="~@/assets/dna@3x.png" height="20" class="middle">
-        <img src="~@/assets/ebs@3x.png" height="20" class="middle">
-        <img src="~@/assets/arpa@3x.png" height="20" class="tall">
-        <img src="~@/assets/kyberNetwork@3x.png" height="20" class="tall">
-        <img src="~@/assets/lumeos@3x.png" height="20" class="middle">
+        <img src="~@/assets/partner1@2x.png">
+        <img src="~@/assets/partner2@2x.png">
+        <img src="~@/assets/partner3@2x.png">
+        <img src="~@/assets/partner4@2x.png">
+        <img src="~@/assets/partner5@2x.png">
+        <img src="~@/assets/partner6@2x.png">
       </div>
       <div class="row">
-        <img src="~@/assets/qokkaAi@3x.png" height="20" class="short">
-        <img src="~@/assets/gbic@3x.png" height="20" class="middle">
-        <img src="~@/assets/oceanex@3x.png" height="20" class="middle">
-        <img src="~@/assets/bitax@3x.png" height="24" class="tall">
-        <img src="~@/assets/coindaily@3x.png" height="20" class="middle">
-        <img src="~@/assets/vechain@3x.png" height="20" class="middle">
+        <img src="~@/assets/partner7@2x.png">
+        <img src="~@/assets/partner8@2x.png">
+        <img src="~@/assets/partner9@2x.png">
+        <img src="~@/assets/partner10@2x.png">
+        <img src="~@/assets/partner11@2x.png">
+        <img src="~@/assets/partner12@2x.png">
       </div>
     </div>
   </div>
@@ -70,6 +68,9 @@ export default {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
+      img {
+        height: 48px;
+      }
     }
   }
   .partners-pc {
@@ -80,6 +81,9 @@ export default {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
+      img {
+        height: 48px;
+      }
     }
   }
 }

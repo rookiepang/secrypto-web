@@ -8,8 +8,8 @@
       </div>
 
       <span id="Products"></span>
-      <card>
-        <img slot="poster" src="~@/assets/picSecryptoWallet@3x.png">
+      <card poster-class="wallet-poster-bg">
+        <img slot="poster" class="centered-half" src="~@/assets/Pic-secryptoWallet.png">
         <img slot="icon" src="~@/assets/icSecryptoWallet@3x.png">
         <template slot="title">Secrypto Wallet</template>
         <template slot="subtitle">Secure and easy-to-use crypto wallet</template>
@@ -26,8 +26,16 @@
         </template>
       </card>
 
-      <card :reverse="true">
-        <img slot="poster" src="~@/assets/picEoScript@3x.png">
+      <card :reverse="true" poster-class="dapp-poster-bg">
+        <img slot="poster" class="centered-half" src="~@/assets/Pic-DAppStore.png">
+        <img slot="icon" src="~@/assets/bitmap@3x.png">
+        <template slot="title">DApps Store</template>
+        <template slot="subtitle">Discover what you need in decentralized world</template>
+        <template slot="content">DApp Store is an entrance for users to find useful tools in decentralized ecosystem. We will assemble DApps build on Ethereum, EOS and other platforms by calling smart contract directly.</template>
+      </card>
+
+      <card poster-class="eoscript-poster-bg">
+        <img slot="poster" class="centered-half" src="~@/assets/Pic-EOScript.png">
         <img slot="icon" src="~@/assets/icEoScript@3x.png">
         <template slot="title">EOScript</template>
         <template slot="subtitle">The EOS DApps framework integrated with efficiency and security</template>
@@ -37,14 +45,6 @@
             Technical Brochure
           </a>
         </template>
-      </card>
-
-      <card>
-        <img slot="poster" src="~@/assets/picDAppStore@3x.png">
-        <img slot="icon" src="~@/assets/bitmap@3x.png">
-        <template slot="title">DApps Store</template>
-        <template slot="subtitle">Discover what you need in decentralized world</template>
-        <template slot="content">DApp Store is an entrance for users to find useful tools in decentralized ecosystem. We will assemble DApps build on Ethereum, EOS and other platforms by calling smart contract directly.</template>
       </card>
 
       <span id="Roadmap"></span>

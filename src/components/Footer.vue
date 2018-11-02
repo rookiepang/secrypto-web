@@ -31,6 +31,7 @@
         <a href="https://t.me/secrypto09" target="__blank" class="telegram">
           <img src="~@/assets/telegram@3x.png">
         </a>
+        
       </div>
     </div>
   </div>

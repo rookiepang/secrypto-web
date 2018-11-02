@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'member',
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -59,15 +59,14 @@ export default {
 @import '~@/assets/css/variables.scss';
 @media (min-width: $breakpoint-tablet) {
   #member {
-    display: flex;
+    text-align: center;
     .avatar {
-      margin-right: 20px;
+      // margin-right: 20px;
       img {
         width: 100px;
       }
     }
     .info {
-      text-align: left;
       .name {
         font-size: 22px;
       }

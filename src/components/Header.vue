@@ -67,8 +67,8 @@ export default {
     justify-content: space-between;
     height: 20px;
     margin-top: 23px;
-    // padding-left: 20px;
-    // padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-self: center;
     .logo {
       height: 24px;
@@ -88,7 +88,7 @@ export default {
         font-size: 22px;
         color: white;
         text-decoration: none;
-        margin-right: 85px;
+        margin-left: 85px;
       }
     }
   }
@@ -151,6 +151,7 @@ export default {
     height: 700px;
     .navs {
       height: 34px;
+      padding: 0;
       .logo,
       .menu-button {
         height: 34px;
