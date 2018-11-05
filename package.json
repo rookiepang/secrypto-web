@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "iview": "^3.0.1",
     "dotenv": "^6.0.0",
     "egg": "^2.2.1",
     "egg-mongoose": "^3.1.0",

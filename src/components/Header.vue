@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper" id="app-header">
-    <div class="navs">
+    <div class="navs centered">
       <div class="logo">
         <img src="~@/assets/secryptoLabs@3x.png">
       </div>
@@ -15,14 +15,14 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="content centered">
       <div class="title">Secrypto Labs</div>
       <div class="subtitle">The Dawn of a Blockchain New Age</div>
     </div>
 
     <transition name="slide">
       <div class="menu" v-if="showMenu">
-        <div class="navs">
+        <div class="navs centered">
           <div class="logo">
             <img src="~@/assets/secryptoLabs@3x.png">
           </div>
@@ -53,7 +53,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$breakpoint-tablet: 1080px;
 #app-header {
   position: relative;
   background-image: url("~@/assets/picSecryptoLabs@3x.jpg");
@@ -63,40 +62,33 @@ $breakpoint-tablet: 1080px;
   height: 260px;
   display: flex;
   flex-direction: column;
-  @media (min-width: $breakpoint-tablet) {
-    height: 700px;
-  }
   .navs {
     display: flex;
     justify-content: space-between;
     height: 20px;
-    padding: 12px 20px;
-    @media (min-width: $breakpoint-tablet) {
-      height: 34px;
-      padding: 23px 69px;
-    }
-    .logo,
-    .menu-button {
-      height: 100%;
+    margin-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+    .logo {
+      height: 24px;
       img {
         height: 100%;
       }
     }
     .menu-button {
-      @media (min-width: $breakpoint-tablet) {
-        display: none;
+      height: 20px;
+      img {
+        height: 100%;
       }
     }
     .nav-items {
       display: none;
-      @media (min-width: $breakpoint-tablet) {
-        display: flex;
-      }
       a {
         font-size: 22px;
         color: white;
         text-decoration: none;
-        margin-right: 85px;
+        margin-left: 85px;
       }
     }
   }
@@ -108,21 +100,12 @@ $breakpoint-tablet: 1080px;
     align-items: flex-start;
     padding: 20px;
     color: white;
-    @media (min-width: $breakpoint-tablet) {
-      padding: 120px;
-    }
     .title {
       font-size: 36px;
       font-weight: bold;
-      @media (min-width: $breakpoint-tablet) {
-        font-size: 72px;
-      }
     }
     .subtitle {
       font-size: 14px;
-      @media (min-width: $breakpoint-tablet) {
-        font-size: 24px;
-      }
     }
   }
   .menu {
@@ -132,6 +115,7 @@ $breakpoint-tablet: 1080px;
     background-color: rgb(31, 34, 51);
     .navs {
       height: 24px;
+      margin-bottom: 40px;
     }
     .items {
       padding: 0px 40px;
@@ -140,7 +124,7 @@ $breakpoint-tablet: 1080px;
       .item {
         text-decoration: none;
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         text-align: left;
         padding: 20px 0;
         &:not(:last-child) {
@@ -159,3 +143,36 @@ $breakpoint-tablet: 1080px;
   transform: translateY(-350px);
 }
 </style>
+
+<style lang="scss" scoped>
+@import '~@/assets/css/variables.scss';
+@media (min-width: $breakpoint-tablet) {
+  #app-header {
+    height: 700px;
+    .navs {
+      height: 34px;
+      padding: 0;
+      .logo,
+      .menu-button {
+        height: 34px;
+      }
+      .menu-button {
+        display: none;
+      }
+      .nav-items {
+        display: flex;
+      }
+    }
+    .content {
+      padding: 100px;
+      .title {
+        font-size: 72px;
+      }
+      .subtitle {
+        font-size: 24px;
+      }
+    }
+  }
+}
+</style>
+

@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.06af2d5c8a85d09631b2397f4f57c82a.js"
+  "/precache-manifest.9d968bc8f21de52b6ffe564ca24303c4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "secrypto-web"});
