@@ -23,9 +23,9 @@
                     <span style="font-size:12px;width:150px;display:flex;padding-right:5px;">Secrypto English Group<br>Secrypto 中文群<br>Secrypto 한국인 그룹</span>
                   </div>
                   <div style="float: left;">
-                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="t.me/dappstore_en" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_en</a></span>
-                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="t.me/dappstore_cn" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_cn</a></span>
-                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="t.me/dappstore_ko" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_ko</a></span>
+                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="https://t.me/dappstore_en" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_en</a></span>
+                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="https://t.me/dappstore_cn" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_cn</a></span>
+                    <span style="font-size:12px;width:120px;display:flex;padding-right:5px;"><a href="https://t.me/dappstore_ko" target="__blank" style="display: block;opacity: 0.85;color: #8cc6ff;text-decoration: underline;">t.me/dappstore_ko</a></span>
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@
             <div slot="content">
               <div style="display:flex;padding:16px 8px;">
                 <div style="text-align:left;">
-                  <div style="font-size:22px;line-height:150%;">Wechat</div>
+                  <div style="font-size:22px;line-height:150%;">WeChat</div>
                   <div style="background-color:white;width:15px;height:2px;margin: 0 0 10px 3px;"></div>
                   <span style="font-size:12px;width:175px;display:flex;padding-right:5px;opacity: 0.85;">Scan the QR Code, <br>or search for “SecryptoLabs” <br>to keep informed of Secrypto.</span>
                 </div>
